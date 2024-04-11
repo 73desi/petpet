@@ -798,15 +798,8 @@
 | `python`     | [`example.py`](./example-script/python/example.py)                                              |
 | `php`        | [`example.php`](./example-script/php/example.php)                                               |
 
-# WebUI
 
-启动`WebServer`后即可使用`WebUI`
-
-启用`preview`配置项以加载`WebUI`模板预览 (可选, 默认关闭)
-
-- 修改 `server-config.json` `preview: true`
-
-# Docker
+## 使用Docker
 
 `docker run -it --name petpet -p 2333:2333 -v /data:/data/petpet 73desi/petpet:0.0.1`<br/>
 
@@ -817,6 +810,16 @@
 可以绑定到宿主机某个目录快速配置程序也可以`docker exec` 进入容器进行配置<br/>
 
 具体配置请参考`WebServer`一节<br/>
+
+
+# WebUI
+
+启动`WebServer`后即可使用`WebUI`
+
+启用`preview`配置项以加载`WebUI`模板预览 (可选, 默认关闭)
+
+- 修改 `server-config.json` `preview: true`
+
 
 ## 常见问题
 
