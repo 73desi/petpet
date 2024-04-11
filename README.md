@@ -806,6 +806,15 @@
 
 - 修改 `server-config.json` `preview: true`
 
+# Docker
+
+`docker run -it --name petpet -p 2333:2333 -v /data:/data/petpet 73desi/petpet:0.0.1`
+介绍:
+1.程序以及data文件都在容器的`/data/petpet`下面
+2.程序运行在容器的`2333`端口
+3.可以绑定到宿主机某个目录快速配置程序也可以`docker exec` 进入容器进行配置
+4.具体配置请参考`WebServer`一节
+
 ## 常见问题
 
 - 戳一戳无法触发?
