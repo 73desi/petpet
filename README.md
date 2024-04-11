@@ -809,11 +809,14 @@
 # Docker
 
 `docker run -it --name petpet -p 2333:2333 -v /data:/data/petpet 73desi/petpet:0.0.1`<br/>
-介绍:<br/>
-1.程序以及data文件都在容器的`/data/petpet`下面<br/>
-2.程序运行在容器的`2333`端口<br/>
-3.可以绑定到宿主机某个目录快速配置程序也可以`docker exec` 进入容器进行配置<br/>
-4.具体配置请参考`WebServer`一节<br/>
+
+程序以及部分模板文件都在容器的`/data/petpet`下面<br/>
+
+程序运行在容器的`2333`端口<br/>
+
+可以绑定到宿主机某个目录快速配置程序也可以`docker exec` 进入容器进行配置<br/>
+
+具体配置请参考`WebServer`一节<br/>
 
 ## 常见问题
 
